@@ -13,7 +13,7 @@ let package = Package(
         .library(name: "Leaf", targets: ["Leaf"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/vapor/leaf-kit.git", from: "1.10.2"),        
+        .package(url: "https://github.com/benblakely/leaf-kit.git", branch: "change-with-tag-to-pass-existing-context"),        
         .package(url: "https://github.com/vapor/vapor.git", from: "4.78.1"),
         .package(url: "https://github.com/apple/swift-algorithms.git", from: "1.0.0"),
     ],
